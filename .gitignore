@@ -1,0 +1,19 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore data files
+data/
+
+# Ignore saved model directories (if applicable)
+saved_model/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
