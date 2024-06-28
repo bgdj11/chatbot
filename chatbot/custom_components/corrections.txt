@@ -1,0 +1,482 @@
+teh,the
+recieve,receive
+adress,address
+definately,definitely
+seperate,separate
+occuring,occurring
+accomodate,accommodate
+acknowlegement,acknowledgment
+arguement,argument
+beleive,believe
+calender,calendar
+comming,coming
+concious,conscious
+develope,develop
+enviroment,environment
+existance,existence
+foriegn,foreign
+fourty,forty
+goverment,government
+happend,happened
+harrass,harass
+jewellry,jewelry
+knowlege,knowledge
+maintainance,maintenance
+neccessary,necessary
+occassion,occasion
+occurance,occurrence
+publically,publicly
+reciept,receipt
+refered,referred
+refering,referring
+religous,religious
+remeber,remember
+resistence,resistance
+secratary,secretary
+sincerly,sincerely
+succesful,successful
+suprise,surprise
+tommorow,tomorrow
+tounge,tongue
+truely,truly
+unforseen,unforeseen
+wierd,weird
+withold,withhold
+withdrawl,withdrawal
+writting,writing
+abandonned,abandoned
+accidently,accidentally
+acommodate,accommodate
+aquire,acquire
+aquisition,acquisition
+agression,aggression
+alchohol,alcohol
+alot,a lot
+amatuer,amateur
+apparant,apparent
+arguement,argument
+athelete,athlete
+authorative,authoritative
+basicly,basically
+begining,beginning
+beleive,believe
+bizzare,bizarre
+bouyant,buoyant
+cemetary,cemetery
+changeing,changing
+collegue,colleague
+comittee,committee
+completely,completely
+concensus,consensus
+curiousity,curiosity
+definate,definite
+dilemma,dilemma
+disasterous,disastrous
+drunkeness,drunkenness
+embarass,embarrass
+exhileration,exhilaration
+existance,existence
+familar,familiar
+finaly,finally
+firey,fiery
+fluorescent,fluorescent
+foriegn,foreign
+formaly,formally
+fourty,forty
+forward,forward
+freind,friend
+fullfil,fulfill
+gaurd,guard
+glamourous,glamorous
+gracefull,graceful
+gratefull,grateful
+greatful,grateful
+guidence,guidance
+happenned,happened
+harrass,harass
+heighth,height
+heirarchy,hierarchy
+humerous,humorous
+hygene,hygiene
+identicaly,identically
+immediatly,immediately
+incidently,incidentally
+independant,independent
+inadvertant,inadvertent
+interuption,interruption
+irrelevent,irrelevant
+irresistable,irresistible
+knowlege,knowledge
+lollypop,lollipop
+maintainance,maintenance
+medeval,medieval
+millenium,millennium
+miniture,miniature
+mischeivous,mischievous
+misspell,mispell
+necessery,necessary
+neice,niece
+noticable,noticeable
+ocassion,occasion
+occassionally,occasionally
+occurence,occurrence
+parliment,parliament
+particularily,particularly
+percieve,perceive
+persistant,persistent
+pharoah,pharaoh
+plagerize,plagiarize
+polution,pollution
+posession,possession
+potatos,potatoes
+practicle,practical
+preceeding,preceding
+prefered,preferred
+prefering,preferring
+presance,presence
+priviledge,privilege
+probaly,probably
+pronounciation,pronunciation
+publically,publicly
+reccomend,recommend
+reciept,receipt
+refered,referred
+refering,referring
+religous,religious
+remeber,remember
+resistence,resistance
+rythm,rhythm
+sacrafice,sacrifice
+satelite,satellite
+secratary,secretary
+siezed,seized
+sincerly,sincerely
+specialy,specially
+speach,speech
+succesful,successful
+suprise,surprise
+tommorrow,tomorrow
+tounge,tongue
+truely,truly
+unforseen,unforeseen
+vaccuum,vacuum
+wierd,weird
+withold,withhold
+withdrawl,withdrawal
+writting,writing
+yatch,yacht
+yeild,yield
+wat, what
+waht, what
+yu, you
+yo, you
+teh, the
+abou, about
+abt, about
+whare, where
+defin, define
+intrduce, introduce
+describ, describe
+tll, tell
+persionality, personality
+answr, answer
+qestion, question
+answring, answering
+yr, your
+helo, hello
+hi, hi
+greeings, greetings
+greting, greeting
+bot, bot
+wahts, what's
+whats, what's
+who's, whose
+tday, today
+answr, answer
+attractive, attractive
+beautful, beautiful
+beautifull, beautiful
+hndsome, handsome
+awsome, awesome
+prtty, pretty
+incredable, incredible
+terible, terrible
+terrable, terrible
+ugly, ugly
+scray, scary
+boring, boring
+boring, boring
+cuntry, country
+cntury, century
+frm, from
+really, really
+real, real
+tru, true
+corect, correct
+whre, where
+residence, residence
+rsidence, residence
+ridence, residence
+fak, fake
+fke, fake
+hear, here
+their, there
+ther, there
+her, here
+realy, really
+inteligent, intelligent
+intelgent, intelligent
+clver, clever
+intresting, interesting
+howe, how
+thats, that's
+pls, please
+plse, please
+thanku, thank you
+thnks, thanks
+thankyou, thank you
+grate, great
+awsome, awesome
+awsm, awesome
+gud, good
+hepl, help
+hlp, help
+sory, sorry
+srory, sorry
+mayb, maybe
+mb, maybe
+posibly, possibly
+posibly, possibly
+defintly, definitely
+defnatly, definitely
+exprience, experience
+experince, experience
+smple, simple
+smpl, simple
+byt, but
+nver, never
+mae, make
+mak, make
+smal, small
+big, big
+bye, bye
+goodby, goodbye
+godby, goodbye
+catch, catch
+ketch, catch
+hug, hug
+hre, here
+bk, back
+stnd, stand
+stnding, standing
+stding, standing
+gd, good
+grea, great
+grate, great
+exited, excited
+excted, excited
+exctd, excited
+hav, have
+se, see
+seing, seeing
+insomniac, insomniac
+insomnic, insomniac
+miserable, miserable
+misrable, miserable
+distressed, distressed
+distresed, distressed
+yawn, yawn
+yawnin, yawning
+test, test
+tst, test
+tsting, testing
+yr, your
+yrs, yours
+yrself, yourself
+mis, miss
+missing, missing
+misng, missing
+sad, sad
+sdd, sad
+unhappy, unhappy
+depressed, depressed
+depresed, depressed
+bored, bored
+borrd, bored
+introdue, introduce
+describ, describe
+persnality, personality
+defnie, define
+abot, about
+dsecribe, describe
+anoying, annoying
+irritatng, irritating
+qustion, question
+answr, answer
+answring, answering
+ansers, answers
+awfull, awful
+useles, useless
+terible, terrible
+beter, better
+clevr, clever
+beutiful, beautiful
+amazng, amazing
+gorgous, gorgeous
+prettyy, pretty
+citte, cute
+wher, where
+boringg, boring
+bosss, boss
+lokation, location
+bussy, busy
+wrking, working
+chatbot, chatbot
+gnius, genius
+briliant, brilliant
+craaazy, crazy
+nots, nuts
+fiered, fired
+hillarious, hilarious
+grate, great
+perfct, perfect
+amazng, amazing
+awsome, awesome
+hapy, happy
+hungry, hungry
+mrry, marry
+freind, friend
+ocupation, occupation
+origin, origin
+redy, ready
+real, real
+resdence, residence
+truee, true
+yees, yes
+tallk, talk
+therre, there
+badly, badly
+gud, good
+thnks, thanks
+welcom, welcome
+welldone, well done
+cnacel, cancel
+cnfirm, confirm
+nooo, no
+waitt, wait
+hugg, hug
+idontcare, I don't care
+sory, sorry
+whtdoyoumean, what do you mean
+wronng, wrong
+hha, ha ha
+loll, lol
+wwo, wow
+gooodby, goodbye
+evenng, evening
+mornig, morning
+nite, night
+helo, hello
+howareyou, how are you
+nicetomeetyou, nice to meet you
+nicetoseeyou, nice to see you
+wassup, what's up
+angy, angry
+boored, bored
+sleeepy, sleepy
+excitted, excited
+goood, good
+hppy, happy
+brthday, birthday
+heree, here
+jocking, joking
+lkes, likes
+loove, love
+misses, misses
+advise, advice
+saad, sad
+tiredd, tired
+waithing, waiting
+seeyouagain, see you again
+talkk, talk
+wilbe back, will be back
+helloo, hello
+pleasse, please
+thannk, thank
+thnks, thanks
+soryy, sorry
+byee, bye
+whatsup, what's up
+reealy, really
+definitly, definitely
+problemm, problem
+donnt, don't
+gudbye, goodbye
+hppy, happy
+helpp, help
+happyy, happy
+freind, friend
+yoou, you
+whyy, why
+becuse, because
+byy, bye
+alrightt, alright
+somthing, something
+evning, evening
+gooood, good
+nicce, nice
+finne, fine
+morningg, morning
+nightt, night
+dayy, day
+seee, see
+soo, so
+verry, very
+wellcome, welcome
+cnfirmed, confirmed
+surelly, surely
+absolutly, absolutely
+yepp, yep
+okkay, okay
+definately, definitely
+plese, please
+thnk, think
+understad, understand
+probly, probably
+truely, truly
+recomend, recommend
+sugestion, suggestion
+qustions, questions
+answr, answer
+anwser, answer
+apologise, apologize
+apologizee, apologize
+greatt, great
+wonderfull, wonderful
+terible, terrible
+disgustingg, disgusting
+irritatting, irritating
+excusse, excuse
+incorrct, incorrect
+resdence, residence
+ocupation, occupation
+misssing, missing
+wants, want's
+whatt, what
+canot, cannot
+do'nt, don't
+adive, advice
+completly, completely
+tired, tiered
+mad, madd
+furiouss, furious
+boredd, bored
+caanot, cannot
+overloadedd, overloaded
+swampeddd, swamped
+returnned, returned
+arrivedd, arrived
+giveme, give me
+whatare, what are
+whois, who is
+howold, how old
