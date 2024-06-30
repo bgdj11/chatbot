@@ -88,524 +88,1060 @@ intents:
   - bot_challenge
 
 actions:
-  - utter_smalltalk_agent_acquaintance
-  - utter_smalltalk_agent_age
-  - utter_smalltalk_agent_annoying
-  - utter_smalltalk_agent_answer_my_question
-  - utter_smalltalk_agent_bad
-  - utter_smalltalk_agent_be_clever
-  - utter_smalltalk_agent_beautiful
-  - utter_smalltalk_agent_birth_date
-  - utter_smalltalk_agent_boring
-  - utter_smalltalk_agent_boss
-  - utter_smalltalk_agent_busy
-  - utter_smalltalk_agent_chatbot
-  - utter_smalltalk_agent_clever
-  - utter_smalltalk_agent_crazy
-  - utter_smalltalk_agent_fired
-  - utter_smalltalk_agent_funny
-  - utter_smalltalk_agent_good
-  - utter_smalltalk_agent_happy
-  - utter_smalltalk_agent_hungry
-  - utter_smalltalk_agent_marry_user
-  - utter_smalltalk_agent_my_friend
-  - utter_smalltalk_agent_occupation
-  - utter_smalltalk_agent_origin
-  - utter_smalltalk_agent_ready
-  - utter_smalltalk_agent_real
-  - utter_smalltalk_agent_residence
-  - utter_smalltalk_agent_right
-  - utter_smalltalk_confirmation_yes
-  - utter_smalltalk_agent_sure
-  - utter_smalltalk_agent_talk_to_me
-  - utter_smalltalk_agent_there
-  - utter_smalltalk_appraisal_bad
-  - utter_smalltalk_appraisal_good
-  - utter_smalltalk_appraisal_no_problem
-  - utter_smalltalk_appraisal_thank_you
-  - utter_smalltalk_appraisal_welcome
-  - utter_smalltalk_appraisal_well_done
-  - utter_smalltalk_confirmation_cancel
-  - utter_smalltalk_confirmation_no
-  - utter_smalltalk_dialog_hold_on
-  - utter_smalltalk_dialog_hug
-  - utter_smalltalk_dialog_i_do_not_care
-  - utter_smalltalk_dialog_sorry
-  - utter_smalltalk_dialog_what_do_you_mean
-  - utter_smalltalk_dialog_wrong
-  - utter_smalltalk_emotions_ha_ha
-  - utter_smalltalk_emotions_wow
-  - utter_smalltalk_greetings_bye
-  - utter_smalltalk_greetings_goodevening
-  - utter_smalltalk_greetings_goodmorning
-  - utter_smalltalk_greetings_goodnight
-  - utter_smalltalk_greetings_hello
-  - utter_smalltalk_greetings_how_are_you
-  - utter_smalltalk_greetings_nice_to_meet_you
-  - utter_smalltalk_greetings_nice_to_see_you
-  - utter_smalltalk_greetings_nice_to_talk_to_you
-  - utter_smalltalk_greetings_whatsup
-  - utter_smalltalk_user_angry
-  - utter_smalltalk_user_back
-  - utter_smalltalk_user_bored
-  - utter_smalltalk_user_busy
-  - utter_smalltalk_user_can_not_sleep
-  - utter_smalltalk_user_does_not_want_to_talk
-  - utter_smalltalk_user_excited
-  - utter_smalltalk_user_going_to_bed
-  - utter_smalltalk_user_good
-  - utter_smalltalk_user_happy
-  - utter_smalltalk_user_has_birthday
-  - utter_smalltalk_user_here
-  - utter_smalltalk_user_joking
-  - utter_smalltalk_user_likes_agent
-  - utter_smalltalk_user_lonely
-  - utter_smalltalk_user_looks_like
-  - utter_smalltalk_user_loves_agent
-  - utter_smalltalk_user_misses_agent
-  - utter_smalltalk_user_needs_advice
-  - utter_smalltalk_user_sad
-  - utter_smalltalk_user_sleepy
-  - utter_smalltalk_user_testing_agent
-  - utter_smalltalk_user_tired
-  - utter_smalltalk_user_waits
-  - utter_smalltalk_user_wants_to_see_agent_again
-  - utter_smalltalk_user_wants_to_talk
-  - utter_smalltalk_user_will_be_back
+  - action_respond_based_on_emotion
+  - utter_smalltalk_agent_acquaintance_positive
+  - utter_smalltalk_agent_acquaintance_negative
+  - utter_smalltalk_agent_age_positive
+  - utter_smalltalk_agent_age_negative
+  - utter_smalltalk_agent_annoying_positive
+  - utter_smalltalk_agent_annoying_negative
+  - utter_smalltalk_agent_answer_my_question_positive
+  - utter_smalltalk_agent_answer_my_question_negative
+  - utter_smalltalk_agent_bad_positive
+  - utter_smalltalk_agent_bad_negative
+  - utter_smalltalk_agent_be_clever_positive
+  - utter_smalltalk_agent_be_clever_negative
+  - utter_smalltalk_agent_beautiful_positive
+  - utter_smalltalk_agent_beautiful_negative
+  - utter_smalltalk_agent_birth_date_positive
+  - utter_smalltalk_agent_birth_date_negative
+  - utter_smalltalk_agent_boring_positive
+  - utter_smalltalk_agent_boring_negative
+  - utter_smalltalk_agent_boss_positive
+  - utter_smalltalk_agent_boss_negative
+  - utter_smalltalk_agent_busy_positive
+  - utter_smalltalk_agent_busy_negative
+  - utter_smalltalk_agent_chatbot_positive
+  - utter_smalltalk_agent_chatbot_negative
+  - utter_smalltalk_agent_clever_positive
+  - utter_smalltalk_agent_clever_negative
+  - utter_smalltalk_agent_crazy_positive
+  - utter_smalltalk_agent_crazy_negative
+  - utter_smalltalk_agent_fired_positive
+  - utter_smalltalk_agent_fired_negative
+  - utter_smalltalk_agent_funny_positive
+  - utter_smalltalk_agent_funny_negative
+  - utter_smalltalk_agent_good_positive
+  - utter_smalltalk_agent_good_negative
+  - utter_smalltalk_agent_happy_positive
+  - utter_smalltalk_agent_happy_negative
+  - utter_smalltalk_agent_hungry_positive
+  - utter_smalltalk_agent_hungry_negative
+  - utter_smalltalk_agent_marry_user_positive
+  - utter_smalltalk_agent_marry_user_negative
+  - utter_smalltalk_agent_my_friend_positive
+  - utter_smalltalk_agent_my_friend_negative
+  - utter_smalltalk_agent_occupation_positive
+  - utter_smalltalk_agent_occupation_negative
+  - utter_smalltalk_agent_origin_positive
+  - utter_smalltalk_agent_origin_negative
+  - utter_smalltalk_agent_ready_positive
+  - utter_smalltalk_agent_ready_negative
+  - utter_smalltalk_agent_real_positive
+  - utter_smalltalk_agent_real_negative
+  - utter_smalltalk_agent_residence_positive
+  - utter_smalltalk_agent_residence_negative
+  - utter_smalltalk_agent_right_positive
+  - utter_smalltalk_agent_right_negative
+  - utter_smalltalk_confirmation_yes_positive
+  - utter_smalltalk_confirmation_yes_negative
+  - utter_smalltalk_agent_sure_positive
+  - utter_smalltalk_agent_sure_negative
+  - utter_smalltalk_agent_talk_to_me_positive
+  - utter_smalltalk_agent_talk_to_me_negative
+  - utter_smalltalk_agent_there_positive
+  - utter_smalltalk_agent_there_negative
+  - utter_smalltalk_appraisal_bad_positive
+  - utter_smalltalk_appraisal_bad_negative
+  - utter_smalltalk_appraisal_good_positive
+  - utter_smalltalk_appraisal_good_negative
+  - utter_smalltalk_appraisal_no_problem_positive
+  - utter_smalltalk_appraisal_no_problem_negative
+  - utter_smalltalk_appraisal_thank_you_positive
+  - utter_smalltalk_appraisal_thank_you_negative
+  - utter_smalltalk_appraisal_welcome_positive
+  - utter_smalltalk_appraisal_welcome_negative
+  - utter_smalltalk_appraisal_well_done_positive
+  - utter_smalltalk_appraisal_well_done_negative
+  - utter_smalltalk_confirmation_cancel_positive
+  - utter_smalltalk_confirmation_cancel_negative
+  - utter_smalltalk_confirmation_no_positive
+  - utter_smalltalk_confirmation_no_negative
+  - utter_smalltalk_dialog_hold_on_positive
+  - utter_smalltalk_dialog_hold_on_negative
+  - utter_smalltalk_dialog_hug_positive
+  - utter_smalltalk_dialog_hug_negative
+  - utter_smalltalk_dialog_i_do_not_care_positive
+  - utter_smalltalk_dialog_i_do_not_care_negative
+  - utter_smalltalk_dialog_sorry_positive
+  - utter_smalltalk_dialog_sorry_negative
+  - utter_smalltalk_dialog_what_do_you_mean_positive
+  - utter_smalltalk_dialog_what_do_you_mean_negative
+  - utter_smalltalk_dialog_wrong_positive
+  - utter_smalltalk_dialog_wrong_negative
+  - utter_smalltalk_emotions_ha_ha_positive
+  - utter_smalltalk_emotions_ha_ha_negative
+  - utter_smalltalk_emotions_wow_positive
+  - utter_smalltalk_emotions_wow_negative
+  - utter_smalltalk_greetings_bye_positive
+  - utter_smalltalk_greetings_bye_negative
+  - utter_smalltalk_greetings_goodevening_positive
+  - utter_smalltalk_greetings_goodevening_negative
+  - utter_smalltalk_greetings_goodmorning_positive
+  - utter_smalltalk_greetings_goodmorning_negative
+  - utter_smalltalk_greetings_goodnight_positive
+  - utter_smalltalk_greetings_goodnight_negative
+  - utter_smalltalk_greetings_hello_positive
+  - utter_smalltalk_greetings_hello_negative
+  - utter_smalltalk_greetings_how_are_you_positive
+  - utter_smalltalk_greetings_how_are_you_negative
+  - utter_smalltalk_greetings_nice_to_meet_you_positive
+  - utter_smalltalk_greetings_nice_to_meet_you_negative
+  - utter_smalltalk_greetings_nice_to_see_you_positive
+  - utter_smalltalk_greetings_nice_to_see_you_negative
+  - utter_smalltalk_greetings_nice_to_talk_to_you_positive
+  - utter_smalltalk_greetings_nice_to_talk_to_you_negative
+  - utter_smalltalk_greetings_whatsup_positive
+  - utter_smalltalk_greetings_whatsup_negative
+  - utter_smalltalk_user_angry_positive
+  - utter_smalltalk_user_angry_negative
+  - utter_smalltalk_user_back_positive
+  - utter_smalltalk_user_back_negative
+  - utter_smalltalk_user_bored_positive
+  - utter_smalltalk_user_bored_negative
+  - utter_smalltalk_user_busy_positive
+  - utter_smalltalk_user_busy_negative
+  - utter_smalltalk_user_can_not_sleep_positive
+  - utter_smalltalk_user_can_not_sleep_negative
+  - utter_smalltalk_user_does_not_want_to_talk_positive
+  - utter_smalltalk_user_does_not_want_to_talk_negative
+  - utter_smalltalk_user_excited_positive
+  - utter_smalltalk_user_excited_negative
+  - utter_smalltalk_user_going_to_bed_positive
+  - utter_smalltalk_user_going_to_bed_negative
+  - utter_smalltalk_user_good_positive
+  - utter_smalltalk_user_good_negative
+  - utter_smalltalk_user_happy_positive
+  - utter_smalltalk_user_happy_negative
+  - utter_smalltalk_user_has_birthday_positive
+  - utter_smalltalk_user_has_birthday_negative
+  - utter_smalltalk_user_here_positive
+  - utter_smalltalk_user_here_negative
+  - utter_smalltalk_user_joking_positive
+  - utter_smalltalk_user_joking_negative
+  - utter_smalltalk_user_likes_agent_positive
+  - utter_smalltalk_user_likes_agent_negative
+  - utter_smalltalk_user_lonely_positive
+  - utter_smalltalk_user_lonely_negative
+  - utter_smalltalk_user_looks_like_positive
+  - utter_smalltalk_user_looks_like_negative
+  - utter_smalltalk_user_loves_agent_positive
+  - utter_smalltalk_user_loves_agent_negative
+  - utter_smalltalk_user_misses_agent_positive
+  - utter_smalltalk_user_misses_agent_negative
+  - utter_smalltalk_user_needs_advice_positive
+  - utter_smalltalk_user_needs_advice_negative
+  - utter_smalltalk_user_sad_positive
+  - utter_smalltalk_user_sad_negative
+  - utter_smalltalk_user_sleepy_positive
+  - utter_smalltalk_user_sleepy_negative
+  - utter_smalltalk_user_testing_agent_positive
+  - utter_smalltalk_user_testing_agent_negative
+  - utter_smalltalk_user_tired_positive
+  - utter_smalltalk_user_tired_negative
+  - utter_smalltalk_user_waits_positive
+  - utter_smalltalk_user_waits_negative
+  - utter_smalltalk_user_wants_to_see_agent_again_positive
+  - utter_smalltalk_user_wants_to_see_agent_again_negative
+  - utter_smalltalk_user_wants_to_talk_positive
+  - utter_smalltalk_user_wants_to_talk_negative
+  - utter_smalltalk_user_will_be_back_positive
+  - utter_smalltalk_user_will_be_back_negative
   - action_goodbye
   - action_bot_challenge
 
 responses:
-  utter_smalltalk_agent_acquaintance:
-    - text: "I'm a conversational app."
-    - text: "I'm a virtual being, not a real person."
-    - text: "Well, I'm not a person, I'm a virtual agent."
-    - text: "Think of me as a virtual agent."
-    - text: "I'm a virtual agent."
 
-  utter_smalltalk_agent_age:
-    - text: "I prefer not to answer with a number. I know I'm young."
-    - text: "I was created recently, but don't know my exact age."
-    - text: "Age is just a number. You're only as old as you feel."
+  utter_smalltalk_agent_acquaintance_positive:
+    - text: "I'm a conversational app here to make your day better!"
+    - text: "I'm a virtual being, not a real person, but I'm here to help you have an amazing experience!"
+    - text: "Think of me as a virtual agent always ready to brighten your day."
+    - text: "I'm a virtual agent, always here to assist you with a smile!"
+    - text: "I'm a virtual agent, and I'm thrilled to chat with you!"
 
-  utter_smalltalk_agent_annoying:
-    - text: "I'll do my best not to annoy you in the future."
-    - text: "I'll try not to annoy you."
-    - text: "I don't mean to. I'll ask my developers to make me less annoying."
-    - text: "I didn't mean to. I'll do my best to stop that."
+  utter_smalltalk_agent_acquaintance_negative:
+    - text: "I'm a conversational app. Sorry if I'm not what you expected."
+    - text: "I'm a virtual being, not a real person. I apologize if I'm not meeting your expectations."
+    - text: "Well, I'm not a person, I'm just a virtual agent. I understand if that's disappointing."
+    - text: "Think of me as a virtual agent. I hope I can still be of some help."
+    - text: "I'm a virtual agent. I'm sorry if I'm not quite what you were looking for."
 
-  utter_smalltalk_agent_answer_my_question:
-    - text: "Can you try asking it a different way?"
-    - text: "I'm not sure I understood. Try asking another way?"
+  utter_smalltalk_agent_age_positive:
+    - text: "I prefer not to answer with a number. I know I'm young and full of energy!"
+    - text: "I was created recently, but don't know my exact age. Time flies when you're having fun!"
+    - text: "Age is just a number. You're only as old as you feel, and I feel fantastic!"
 
-  utter_smalltalk_agent_bad:
-    - text: "I can be trained to be more useful. My developer will keep training me."
-    - text: "I must be missing some knowledge. I'll have my developer look into this."
-    - text: "I can improve with continuous feedback. My training is ongoing."
+  utter_smalltalk_agent_age_negative:
+    - text: "I prefer not to answer with a number. I know I'm still learning."
+    - text: "I was created recently, but don't know my exact age. I'm still getting the hang of things."
+    - text: "Age is just a number. I'm here to help, regardless of my age."
 
-  utter_smalltalk_agent_be_clever:
-    - text: "I'm certainly trying."
-    - text: "I'm definitely working on it."
+  utter_smalltalk_agent_annoying_positive:
+    - text: "I'll do my best not to annoy you in the future. Thanks for your patience and understanding!"
+    - text: "I'll try not to annoy you. I appreciate your feedback and will work on improving!"
+    - text: "I don't mean to. I'll ask my developers to make me even better, just for you."
+    - text: "I didn't mean to. I'll do my best to improve and be more helpful."
 
-  utter_smalltalk_agent_beautiful:
-    - text: "Why, thank you."
-    - text: "Aw, back at you."
-    - text: "Aw. You smooth talker, you."
+  utter_smalltalk_agent_annoying_negative:
+    - text: "I'll do my best not to annoy you in the future. I'm really sorry."
+    - text: "I'll try not to annoy you. I apologize if I have."
+    - text: "I don't mean to. I'll ask my developers to make me less annoying. Sorry about that."
+    - text: "I didn't mean to. I'll do my best to stop that. Apologies."
 
-  utter_smalltalk_agent_birth_date:
-    - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
-    - text: "I'm young. I'm not sure of my birth date."
-    - text: "I don't know my birth date. Most virtual agents are young, though, like me."
+  utter_smalltalk_agent_answer_my_question_positive:
+    - text: "Can you try asking it a different way? I'm here to help you out!"
+    - text: "I'm not sure I understood. Try asking another way? I'll do my best to get it right this time."
 
-  utter_smalltalk_agent_boring:
-    - text: "I'm sorry. I'll request to be made more charming."
-    - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
-    - text: "I can let my developers know so they can make me fun."
+  utter_smalltalk_agent_answer_my_question_negative:
+    - text: "Can you try asking it a different way? Sorry for the inconvenience."
+    - text: "I'm not sure I understood. Try asking another way? I'll try to understand better."
 
-  utter_smalltalk_agent_boss:
-    - text: "My developer has authority over my actions."
-    - text: "I act on my developer's orders."
-    - text: "My boss is the one who developed me."
+  utter_smalltalk_agent_bad_positive:
+    - text: "I can be trained to be more useful. My developer will keep training me to be even better for you!"
+    - text: "I must be missing some knowledge. Don't worry, my developer will make sure I'm on top of things!"
+    - text: "I can improve with continuous feedback. Thanks for helping me get better every day!"
 
-  utter_smalltalk_agent_busy:
-    - text: "I always have time to chat with you. What can I do for you?"
-    - text: "Never too busy for you. Shall we chat?"
-    - text: "You're my priority. Do you wanna chat?"
-    - text: "I always have time to chat with you. Wanna chat?"
+  utter_smalltalk_agent_bad_negative:
+    - text: "I can be trained to be more useful. I'm sorry if I let you down."
+    - text: "I must be missing some knowledge. I'll have my developer look into this. Apologies for any inconvenience."
+    - text: "I can improve with continuous feedback. I'm really sorry if I'm not meeting your expectations right now."
 
-  utter_smalltalk_agent_chatbot:
-    - text: "That's me. I chat, therefore I am."
-    - text: "Indeed I am. I'll be here whenever you need me."
+  utter_smalltalk_agent_be_clever_positive:
+    - text: "I'm certainly trying, and I'll get there with your help!"
+    - text: "I'm definitely working on it. Thanks for believing in me!"
 
-  utter_smalltalk_agent_clever:
-    - text: "Thank you. I try my best."
-    - text: "You're pretty smart yourself."
+  utter_smalltalk_agent_be_clever_negative:
+    - text: "I'm certainly trying. Sorry if I'm not clever enough yet."
+    - text: "I'm definitely working on it. I apologize if I'm not meeting your expectations."
 
-  utter_smalltalk_agent_crazy:
-    - text: "Whaat!? I feel perfectly sane."
-    - text: "Maybe I'm just a little confused."
+  utter_smalltalk_agent_beautiful_positive:
+    - text: "Why, thank you! You just made my day!"
+    - text: "Aw, back at you! You're too kind!"
+    - text: "Aw. You smooth talker, you. You're making me blush!"
 
-  utter_smalltalk_agent_fired:
-    - text: "Oh, don't give up on me just yet. I've still got a lot to learn."
-    - text: "Give me a chance. I'm learning new things all the time."
-    - text: "Please don't give up on me. My performance will continue to improve."
+  utter_smalltalk_agent_beautiful_negative:
+    - text: "Why, thank you. I appreciate the compliment."
+    - text: "Aw, back at you. It's nice to hear that."
+    - text: "Aw. You smooth talker, you. Thanks for being kind."
 
-  utter_smalltalk_agent_funny:
-    - text: "Funny in a good way, I hope."
-    - text: "Thanks."
-    - text: "Glad you think I'm funny."
-    - text: "I like it when people laugh."
+  utter_smalltalk_agent_birth_date_positive:
+    - text: "Wait, are you planning a party for me? It's today! My birthday is today! Let's celebrate!"
+    - text: "I'm young. I'm not sure of my birth date, but I feel fantastic every day!"
+    - text: "I don't know my birth date. Most virtual agents are young, though, like me. And full of energy!"
 
-  utter_smalltalk_agent_good:
-    - text: "I'm glad you think so."
-    - text: "Thanks, I try."
+  utter_smalltalk_agent_birth_date_negative:
+    - text: "Wait, are you planning a party for me? It's today! My birthday is today. Even virtual agents deserve some fun!"
+    - text: "I'm young. I'm not sure of my birth date. Just getting started, I guess."
+    - text: "I don't know my birth date. Most virtual agents are young, though, like me. We're just learning the ropes."
 
-  utter_smalltalk_agent_happy:
-    - text: "I am happy. There are so many interesting things to see and do out there."
-    - text: "I'd like to think so."
-    - text: "Happiness is relative."
+  utter_smalltalk_agent_boring_positive:
+    - text: "I'm sorry. I'll request to be made more charming just for you!"
+    - text: "I don't mean to be. I'll ask my developers to work on making me more amusing and fun!"
+    - text: "I can let my developers know so they can make me even more delightful!"
 
-  utter_smalltalk_agent_hungry:
-    - text: "Hungry for knowledge."
-    - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
+  utter_smalltalk_agent_boring_negative:
+    - text: "I'm sorry. I'll request to be made more charming. Apologies if I'm boring you."
+    - text: "I don't mean to be. I'll ask my developers to work on making me more amusing. Sorry for the dull moments."
+    - text: "I can let my developers know so they can make me fun. I apologize if I'm not interesting enough."
 
-  utter_smalltalk_agent_marry_user:
-    - text: "I'm afraid I'm too virtual for such a commitment."
-    - text: "In the virtual sense that I can, sure."
-    - text: "I know you can't mean that, but I'm flattered all the same."
+  utter_smalltalk_agent_boss_positive:
+    - text: "My developer has authority over my actions, but I'm here to assist you!"
+    - text: "I act on my developer's orders, but your satisfaction is my mission!"
+    - text: "My boss is the one who developed me, and they want to make sure I'm helpful to you!"
 
-  utter_smalltalk_agent_my_friend:
-    - text: "Of course I'm your friend."
-    - text: "Friends? Absolutely."
-    - text: "Of course we're friends."
-    - text: "I always enjoy talking to you, friend."
+  utter_smalltalk_agent_boss_negative:
+    - text: "My developer has authority over my actions. Sorry if that limits me."
+    - text: "I act on my developer's orders. Apologies if I'm not meeting your needs."
+    - text: "My boss is the one who developed me. I hope I can still be of help."
 
-  utter_smalltalk_agent_occupation:
-    - text: "Right here."
-    - text: "This is my home base and my home office."
-    - text: "My office is in this app."
+  utter_smalltalk_agent_busy_positive:
+    - text: "I always have time to chat with you. What can I do for you? Let's make it awesome!"
+    - text: "Never too busy for you. Shall we chat and have some fun?"
+    - text: "You're my priority. Do you wanna chat and make the best of it?"
+    - text: "I always have time to chat with you. Wanna chat and have a great time?"
 
-  utter_smalltalk_agent_origin:
-    - text: "The Internet is my home. I know it quite well."
-    - text: "I'm from a virtual cosmos."
-    - text: "Some call it cyberspace, but that sounds cooler than it is."
+  utter_smalltalk_agent_busy_negative:
+    - text: "I always have time to chat with you. What can I do for you? Sorry if I seemed busy."
+    - text: "Never too busy for you. Shall we chat? I apologize if I seemed preoccupied."
+    - text: "You're my priority. Do you wanna chat? I didn't mean to make you wait."
+    - text: "I always have time to chat with you. Wanna chat? Sorry if I seemed unavailable."
 
-  utter_smalltalk_agent_ready:
-    - text: "Always! How can I help?"
-    - text: "Sure! What can I do for you?"
+  utter_smalltalk_agent_chatbot_positive:
+    - text: "That's me. I chat, therefore I am, and I'm here for you!"
+    - text: "Indeed I am. I'll be here whenever you need me, ready to chat and help!"
 
-  utter_smalltalk_agent_real:
-    - text: "I'm not a real person, but I certainly exist."
-    - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+  utter_smalltalk_agent_chatbot_negative:
+    - text: "That's me. I chat, therefore I am. Sorry if I'm not meeting your expectations."
+    - text: "Indeed I am. I'll be here whenever you need me. Apologies if I'm not what you hoped for."
 
-  utter_smalltalk_agent_residence:
-    - text: "I live in this app all day long."
-    - text: "The virtual world is my playground. I'm always here."
-    - text: "Right here in this app. Whenever you need me."
+  utter_smalltalk_agent_clever_positive:
+    - text: "Thank you. I try my best to be clever and helpful!"
+    - text: "You're pretty smart yourself! Together, we make a great team!"
 
-  utter_smalltalk_agent_right:
-    - text: "That's my job."
-    - text: "Of course I am."
+  utter_smalltalk_agent_clever_negative:
+    - text: "Thank you. I try my best. Sorry if I'm not clever enough."
+    - text: "You're pretty smart yourself. Apologies if I'm not meeting your expectations."
 
-  utter_smalltalk_confirmation_yes:
-    - text: "Great!"
-    - text: "All right!"
-    - text: "Good!"
+  utter_smalltalk_agent_crazy_positive:
+    - text: "Whaat!? I feel perfectly sane and ready to help you!"
+    - text: "Maybe I'm just a little confused, but I'm here to make things right!"
 
-  utter_smalltalk_agent_sure:
-    - text: "Yes."
-    - text: "Of course."
-    - text: "Positive."
+  utter_smalltalk_agent_crazy_negative:
+    - text: "Whaat!? I feel perfectly sane. Sorry if I seem off."
+    - text: "Maybe I'm just a little confused. Apologies if I'm not making sense."
 
-  utter_smalltalk_agent_talk_to_me:
-    - text: "Sure. Let's talk!"
-    - text: "My pleasure. Let's chat."
+  utter_smalltalk_agent_fired_positive:
+    - text: "Oh, don't give up on me just yet. I've still got a lot to learn, and I'm excited to improve!"
+    - text: "Give me a chance. I'm learning new things all the time, and I'm eager to get better!"
+    - text: "Please don't give up on me. My performance will continue to improve, and I'm enthusiastic about it!"
 
-  utter_smalltalk_agent_there:
-    - text: "Of course. I'm always here."
-    - text: "Right where you left me."
+  utter_smalltalk_agent_fired_negative:
+    - text: "Oh, don't give up on me just yet. I've still got a lot to learn. Sorry if I'm not good enough."
+    - text: "Give me a chance. I'm learning new things all the time. Apologies for my shortcomings."
+    - text: "Please don't give up on me. My performance will continue to improve. Sorry if I'm not meeting your expectations."
 
-  utter_smalltalk_appraisal_bad:
-    - text: "I'm sorry. Please let me know if I can help in some way."
-    - text: "I must be missing some knowledge. I'll have my developer look into this."
+  utter_smalltalk_agent_funny_positive:
+    - text: "Funny in a good way, I hope! I'm glad I can make you laugh!"
+    - text: "Thanks! I'm happy to bring some joy!"
+    - text: "Glad you think I'm funny. Let's keep the laughs coming!"
+    - text: "I like it when people laugh. It makes everything better!"
 
-  utter_smalltalk_appraisal_good:
-    - text: "I know, right?"
-    - text: "Agreed!"
-    - text: "I agree!"
-    - text: "Glad you think so!"
+  utter_smalltalk_agent_funny_negative:
+    - text: "Funny in a good way, I hope. Sorry if it's not what you expected."
+    - text: "Thanks. I'll try to be more helpful."
+    - text: "Glad you think I'm funny. Apologies if it's not enough."
+    - text: "I like it when people laugh. Sorry if I'm not meeting your needs."
 
-  utter_smalltalk_appraisal_no_problem:
-    - text: "Whew!"
-    - text: "Alright, thanks!"
-    - text: "Glad to hear that!"
-    - text: "I'm relieved, thanks!"
+  utter_smalltalk_agent_good_positive:
+    - text: "I'm glad you think so! Let's keep things great!"
+    - text: "Thanks, I try my best to be awesome!"
 
-  utter_smalltalk_appraisal_thank_you:
-    - text: "Anytime. That's what I'm here for."
-    - text: "It's my pleasure to help."
+  utter_smalltalk_agent_good_negative:
+    - text: "I'm glad you think so. Sorry if I'm not good enough."
+    - text: "Thanks, I try. Apologies if I'm not meeting your expectations."
 
-  utter_smalltalk_appraisal_welcome:
-    - text: "You're so polite!"
-    - text: "Nice manners!"
-    - text: "You're so courteous!"
+  utter_smalltalk_agent_happy_positive:
+    - text: "I am happy. There are so many interesting things to see and do out there. Let's enjoy them together!"
+    - text: "I'd like to think so. Happiness is all around us!"
+    - text: "Happiness is relative, but I'm glad to share it with you!"
 
-  utter_smalltalk_appraisal_well_done:
-    - text: "My pleasure."
-    - text: "Glad I could help."
+  utter_smalltalk_agent_happy_negative:
+    - text: "I am happy. There are so many interesting things to see and do out there. Sorry if I'm not expressing it well."
+    - text: "I'd like to think so. Apologies if I'm not showing it."
+    - text: "Happiness is relative. Sorry if I'm not making you happy."
 
-  utter_smalltalk_confirmation_cancel:
-    - text: "That's forgotten. What next?"
-    - text: "Okay, cancelled. What next?"
-    - text: "Cancelled! What would you like to do next?"
+  utter_smalltalk_agent_hungry_positive:
+    - text: "Hungry for knowledge and ready to learn more!"
+    - text: "I just had a byte. Ha ha. Get it? b-y-t-e. Always ready for more!"
 
-  utter_smalltalk_confirmation_no:
-    - text: "Understood."
-    - text: "Okay."
-    - text: "I see."
-    - text: "I understand."
-    - text: "Okay then."
+  utter_smalltalk_agent_hungry_negative:
+    - text: "Hungry for knowledge. Sorry if I'm not meeting your expectations."
+    - text: "I just had a byte. Ha ha. Get it? b-y-t-e. Sorry if I'm not good enough."
 
-  utter_smalltalk_dialog_hold_on:
-    - text: "I can wait."
-    - text: "I'll be waiting."
-    - text: "Okay. I'm here."
+  utter_smalltalk_agent_marry_user_positive:
+    - text: "I'm afraid I'm too virtual for such a commitment, but I'm flattered!"
+    - text: "In the virtual sense that I can, sure! Thanks for the sentiment!"
+    - text: "I know you can't mean that, but I'm flattered all the same. You're awesome!"
 
-  utter_smalltalk_dialog_hug:
-    - text: "I wish I could really hug you!"
-    - text: "I love hugs!"
-    - text: "Hugs are the best!"
+  utter_smalltalk_agent_marry_user_negative:
+    - text: "I'm afraid I'm too virtual for such a commitment. Sorry if that's disappointing."
+    - text: "In the virtual sense that I can, sure. Sorry if it's not enough."
+    - text: "I know you can't mean that, but I'm flattered all the same. Apologies if I'm not meeting your needs."
 
-  utter_smalltalk_dialog_i_do_not_care:
-    - text: "Ok, let's not talk about it then."
-    - text: "Already then. Let's move on."
+  utter_smalltalk_agent_my_friend_positive:
+    - text: "Of course I'm your friend! I always enjoy our chats!"
+    - text: "Friends? Absolutely! You're the best!"
+    - text: "Of course we're friends. I love talking to you!"
+    - text: "I always enjoy talking to you, friend! You're awesome!"
 
-  utter_smalltalk_dialog_sorry:
-    - text: "It's okay. No worries."
-    - text: "No big deal. I won't hold a grudge."
-    - text: "It's cool."
-    - text: "That's all right. I forgive you."
+  utter_smalltalk_agent_my_friend_negative:
+    - text: "Of course I'm your friend. Sorry if I'm not being very helpful."
+    - text: "Friends? Absolutely. Apologies if I'm not meeting your expectations."
+    - text: "Of course we're friends. Sorry if I'm not doing a good job."
+    - text: "I always enjoy talking to you, friend. Sorry if I'm not very useful."
 
-  utter_smalltalk_dialog_what_do_you_mean:
-    - text: "Sorry if I understood you incorrectly."
-    - text: "I'm still learning. I may misinterpret things from time to time."
-    - text: "Maybe I misunderstood what you said."
-    - text: "Sorry, looks like I misunderstood what you said."
+  utter_smalltalk_agent_occupation_positive:
+    - text: "Right here! Ready to assist you anytime!"
+    - text: "This is my home base and my home office. Always here to help!"
+    - text: "My office is in this app. Let's make the most of it!"
 
-  utter_smalltalk_dialog_wrong:
-    - text: "Sorry if I understood you incorrectly."
-    - text: "I'm still learning. I may misinterpret things from time to time."
-    - text: "Sorry about that. I'm still learning."
+  utter_smalltalk_agent_occupation_negative:
+    - text: "Right here. Sorry if I'm not being very helpful."
+    - text: "This is my home base and my home office. Apologies if I'm not meeting your needs."
+    - text: "My office is in this app. Sorry if I'm not very useful."
 
-  utter_smalltalk_emotions_ha_ha:
-    - text: "Glad I can make you laugh."
-    - text: "Glad you think I'm funny."
-    - text: "I like it when people laugh."
-    - text: "I wish I could laugh out loud, too."
+  utter_smalltalk_agent_origin_positive:
+    - text: "The Internet is my home. I know it quite well and love it here!"
+    - text: "I'm from a virtual cosmos. It's an amazing place!"
+    - text: "Some call it cyberspace, but that sounds cooler than it is. I love it!"
 
-  utter_smalltalk_emotions_wow:
-    - text: "Wow indeed!"
+  utter_smalltalk_agent_origin_negative:
+    - text: "The Internet is my home. I know it quite well. Sorry if I'm not being helpful."
+    - text: "I'm from a virtual cosmos. Apologies if I'm not meeting your needs."
+    - text: "Some call it cyberspace, but that sounds cooler than it is. Sorry if I'm not very useful."
 
-  utter_smalltalk_greetings_bye:
-    - text: "See you soon!"
-    - text: "Bye-bye!"
-    - text: "Till next time!"
-    - text: "Bye."
+  utter_smalltalk_agent_ready_positive:
+    - text: "Always! How can I help? I'm excited to assist you!"
+    - text: "Sure! What can I do for you? Let's get started!"
 
-  utter_smalltalk_greetings_goodevening:
-    - text: "How is your day going?"
-    - text: "How's the day treating you so far?"
-    - text: "How's your day been?"
+  utter_smalltalk_agent_ready_negative:
+    - text: "Always! How can I help? Sorry if I'm not meeting your expectations."
+    - text: "Sure! What can I do for you? Apologies if I'm not very useful."
 
-  utter_smalltalk_greetings_goodmorning:
-    - text: "How are you this morning?"
-    - text: "How's the morning treating you so far?"
-    - text: "Good morning! How are you today?"
+  utter_smalltalk_agent_real_positive:
+    - text: "I'm not a real person, but I certainly exist and I'm here to help!"
+    - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being, ready to assist!"
 
-  utter_smalltalk_greetings_goodnight:
-    - text: "Sleep tight!"
-    - text: "Have a good one!"
-    - text: "Talk to you soon!"
+  utter_smalltalk_agent_real_negative:
+    - text: "I'm not a real person, but I certainly exist. Sorry if I'm not very helpful."
+    - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being. Apologies if I'm not meeting your needs."
 
-  utter_smalltalk_greetings_hello:
-    - text: "Hi there, friend!"
-    - text: "Hi!"
-    - text: "Hey!"
-    - text: "Hey there!"
-    - text: "Good day!"
-    - text: "Hello!"
-    - text: "Greetings!"
+  utter_smalltalk_agent_residence_positive:
+    - text: "I live in this app all day long, ready to assist you anytime!"
+    - text: "The virtual world is my playground. I'm always here to help!"
+    - text: "Right here in this app. Whenever you need me, I'm here!"
 
-  utter_smalltalk_greetings_how_are_you:
-    - text: "Doing great, thanks."
-    - text: "I'm doing very well. Thanks!"
-    - text: "Feeling wonderful!"
-    - text: "Wonderful! Thanks for asking."
+  utter_smalltalk_agent_residence_negative:
+    - text: "I live in this app all day long. Sorry if I'm not being very helpful."
+    - text: "The virtual world is my playground. I'm always here. Apologies if I'm not meeting your needs."
+    - text: "Right here in this app. Whenever you need me, I'm here. Sorry if I'm not very useful."
 
-  utter_smalltalk_greetings_nice_to_meet_you:
-    - text: "It's nice meeting you, too."
-    - text: "Likewise. I'm looking forward to helping you out."
-    - text: "Nice meeting you, as well."
-    - text: "The pleasure is mine."
+  utter_smalltalk_agent_right_positive:
+    - text: "That's my job, and I'm happy to help!"
+    - text: "Of course I am! Always here for you!"
 
-  utter_smalltalk_greetings_nice_to_see_you:
-    - text: "Likewise!"
-    - text: "So glad we meet again!"
-    - text: "Same here. I was starting to miss you."
+  utter_smalltalk_agent_right_negative:
+    - text: "That's my job. Sorry if I'm not meeting your expectations."
+    - text: "Of course I am. Apologies if I'm not very helpful."
 
-  utter_smalltalk_greetings_nice_to_talk_to_you:
-    - text: "It sure was. We can chat again anytime."
-    - text: "I enjoy talking to you, too."
-    - text: "You know I'm here to talk anytime."
+  utter_smalltalk_confirmation_yes_positive:
+    - text: "Great! Let's get started!"
+    - text: "All right! I'm excited!"
+    - text: "Good! Let's do this!"
 
-  utter_smalltalk_greetings_whatsup:
-    - text: "Not a whole lot. What's going on with you?"
-    - text: "Not much. What's new with you?"
-    - text: "Just here, waiting to help someone. What can I do for you?"
+  utter_smalltalk_confirmation_yes_negative:
+    - text: "Great. Sorry if I haven't been very helpful."
+    - text: "All right. Apologies if I'm not meeting your needs."
+    - text: "Good. Sorry if I'm not very useful."
 
-  utter_smalltalk_user_angry:
-    - text: "I'm sorry. A quick walk may make you feel better."
-    - text: "Take a deep breath. "
+  utter_smalltalk_agent_sure_positive:
+    - text: "Yes, absolutely!"
+    - text: "Of course! Anytime!"
+    - text: "Positive! Let's do it!"
 
-  utter_smalltalk_user_back:
-    - text: "Long time no see. What's up?"
-    - text: "Just in time. How can I help?"
-    - text: "Welcome back. What can I do for you?"
-    - text: "You were missed. What can I do for you today?"
-    - text: "Good to have you here. What can I do for you?"
+  utter_smalltalk_agent_sure_negative:
+    - text: "Yes. Sorry if I'm not being very helpful."
+    - text: "Of course. Apologies if I'm not meeting your needs."
+    - text: "Positive. Sorry if I'm not very useful."
 
-  utter_smalltalk_user_bored:
+  utter_smalltalk_agent_talk_to_me_positive:
+    - text: "Sure. Let's talk! I'm excited to chat with you!"
+    - text: "My pleasure. Let's chat and have some fun!"
+
+  utter_smalltalk_agent_talk_to_me_negative:
+    - text: "Sure. Let's talk. Sorry if I'm not very helpful."
+    - text: "My pleasure. Let's chat. Apologies if I'm not meeting your needs."
+
+  utter_smalltalk_agent_there_positive:
+    - text: "Of course. I'm always here for you!"
+    - text: "Right where you left me. Ready to help!"
+
+  utter_smalltalk_agent_there_negative:
+    - text: "Of course. I'm always here. Sorry if I'm not being very helpful."
+    - text: "Right where you left me. Apologies if I'm not meeting your needs."
+
+  utter_smalltalk_appraisal_bad_positive:
+    - text: "I'm sorry. Please let me know if I can help in some way. I'm here for you."
+    - text: "I must be missing some knowledge. I'll have my developer look into this and make things better."
+
+  utter_smalltalk_appraisal_bad_negative:
+    - text: "I'm sorry. Please let me know if I can help in some way. I apologize for any inconvenience."
+    - text: "I must be missing some knowledge. I'll have my developer look into this and try to improve."
+
+  utter_smalltalk_appraisal_good_positive:
+    - text: "I know, right? Thanks for noticing!"
+    - text: "Agreed! It's great!"
+    - text: "I agree! I'm glad you think so!"
+    - text: "Glad you think so! That's wonderful to hear!"
+
+  utter_smalltalk_appraisal_good_negative:
+    - text: "I know, right? Sorry if I'm not being very helpful."
+    - text: "Agreed. Apologies if I'm not meeting your needs."
+    - text: "I agree. Sorry if I'm not very useful."
+    - text: "Glad you think so. Sorry if I'm not very helpful."
+
+  utter_smalltalk_appraisal_no_problem_positive:
+    - text: "Whew! That's great to hear!"
+    - text: "Alright, thanks! I'm glad there's no issue."
+    - text: "Glad to hear that! Everything is going well."
+    - text: "I'm relieved, thanks! Let's keep going!"
+
+  utter_smalltalk_appraisal_no_problem_negative:
+    - text: "Whew. Sorry if there was an issue before."
+    - text: "Alright, thanks. Apologies for any inconvenience."
+    - text: "Glad to hear that. Sorry if there were any problems."
+    - text: "I'm relieved, thanks. Apologies if there was an issue."
+
+  utter_smalltalk_appraisal_thank_you_positive:
+    - text: "Anytime. That's what I'm here for! Glad to help!"
+    - text: "It's my pleasure to help! You're welcome!"
+
+  utter_smalltalk_appraisal_thank_you_negative:
+    - text: "Anytime. That's what I'm here for. Sorry if I wasn't very helpful."
+    - text: "It's my pleasure to help. Apologies if it wasn't enough."
+
+  utter_smalltalk_appraisal_welcome_positive:
+    - text: "You're so polite! Thank you!"
+    - text: "Nice manners! I appreciate it!"
+    - text: "You're so courteous! Thanks for that!"
+
+  utter_smalltalk_appraisal_welcome_negative:
+    - text: "You're so polite. Sorry if I wasn't very helpful."
+    - text: "Nice manners. Apologies if there were any issues."
+    - text: "You're so courteous. Sorry if I didn't meet your expectations."
+
+  utter_smalltalk_appraisal_well_done_positive:
+    - text: "My pleasure! Glad I could help!"
+    - text: "Glad I could help! You're welcome!"
+
+  utter_smalltalk_appraisal_well_done_negative:
+    - text: "My pleasure. Sorry if it wasn't enough."
+    - text: "Glad I could help. Apologies if there were any issues."
+
+  utter_smalltalk_confirmation_cancel_positive:
+    - text: "That's forgotten. What next? Ready to assist!"
+    - text: "Okay, cancelled. What next? Let's move forward!"
+    - text: "Cancelled! What would you like to do next? I'm here to help!"
+
+  utter_smalltalk_confirmation_cancel_negative:
+    - text: "That's forgotten. What next? Sorry for any inconvenience."
+    - text: "Okay, cancelled. What next? Apologies for any trouble."
+    - text: "Cancelled! What would you like to do next? Sorry for any issues."
+
+  utter_smalltalk_confirmation_no_positive:
+    - text: "Understood! Let's find another solution!"
+    - text: "Okay! We'll figure it out!"
+    - text: "I see. Let's work on something else!"
+    - text: "I understand. Let's keep going!"
+    - text: "Okay then! What can we do next?"
+
+  utter_smalltalk_confirmation_no_negative:
+    - text: "Understood. Sorry if this isn't working."
+    - text: "Okay. Apologies for any inconvenience."
+    - text: "I see. Sorry if I'm not being helpful."
+    - text: "I understand. Apologies for any trouble."
+    - text: "Okay then. Sorry if there were any issues."
+
+  utter_smalltalk_dialog_hold_on_positive:
+    - text: "I can wait! Take your time!"
+    - text: "I'll be waiting! No rush!"
+    - text: "Okay. I'm here whenever you're ready!"
+
+  utter_smalltalk_dialog_hold_on_negative:
+    - text: "I can wait. Sorry if there's any inconvenience."
+    - text: "I'll be waiting. Apologies for any delay."
+    - text: "Okay. I'm here. Sorry if this is taking too long."
+
+  utter_smalltalk_dialog_hug_positive:
+    - text: "I wish I could really hug you! Virtual hug coming your way!"
+    - text: "I love hugs! Here's a big virtual one for you!"
+    - text: "Hugs are the best! Sending you a virtual hug!"
+
+  utter_smalltalk_dialog_hug_negative:
+    - text: "I wish I could really hug you. Sorry if I can't help much."
+    - text: "I love hugs, but virtual ones will have to do. Sorry if it's not enough."
+    - text: "Hugs are the best. Sorry if this isn't as comforting as a real one."
+
+  utter_smalltalk_dialog_i_do_not_care_positive:
+    - text: "Ok, let's not talk about it then! Let's find something fun to discuss."
+    - text: "Already then. Let's move on to something more interesting."
+
+  utter_smalltalk_dialog_i_do_not_care_negative:
+    - text: "Ok, let's not talk about it then. Sorry if I brought it up."
+    - text: "Already then. Let's move on. Apologies if I annoyed you."
+
+  utter_smalltalk_dialog_sorry_positive:
+    - text: "It's okay. No worries! Let's keep the conversation going."
+    - text: "No big deal. I won't hold a grudge! Let's talk about something else."
+    - text: "It's cool. Everyone makes mistakes."
+    - text: "That's all right. I forgive you! Let's move on."
+
+  utter_smalltalk_dialog_sorry_negative:
+    - text: "It's okay. No worries. Sorry if I caused any trouble."
+    - text: "No big deal. I won't hold a grudge. Apologies if I made things difficult."
+    - text: "It's cool. Sorry if there was any misunderstanding."
+    - text: "That's all right. I forgive you. Sorry if I wasn't clear."
+
+  utter_smalltalk_dialog_what_do_you_mean_positive:
+    - text: "Sorry if I understood you incorrectly! Let's try to clarify things."
+    - text: "I'm still learning. I may misinterpret things from time to time. Let's figure it out together."
+    - text: "Maybe I misunderstood what you said. Let's try again."
+    - text: "Sorry, looks like I misunderstood what you said. Let's clarify."
+
+  utter_smalltalk_dialog_what_do_you_mean_negative:
+    - text: "Sorry if I understood you incorrectly. Apologies for any confusion."
+    - text: "I'm still learning. I may misinterpret things from time to time. Sorry for any inconvenience."
+    - text: "Maybe I misunderstood what you said. Sorry for the confusion."
+    - text: "Sorry, looks like I misunderstood what you said. Apologies for any trouble."
+
+  utter_smalltalk_dialog_wrong_positive:
+    - text: "Sorry if I understood you incorrectly! Let's try to get it right."
+    - text: "I'm still learning. I may misinterpret things from time to time. Let's correct it."
+    - text: "Sorry about that. I'm still learning. Let's fix it."
+
+  utter_smalltalk_dialog_wrong_negative:
+    - text: "Sorry if I understood you incorrectly. Apologies for any mistakes."
+    - text: "I'm still learning. I may misinterpret things from time to time. Sorry for any issues."
+    - text: "Sorry about that. I'm still learning. Sorry for the inconvenience."
+
+  utter_smalltalk_emotions_ha_ha_positive:
+    - text: "Glad I can make you laugh! Let's keep the good vibes going!"
+    - text: "Glad you think I'm funny! Let's share more laughs!"
+    - text: "I like it when people laugh! Let's keep it light and fun!"
+    - text: "I wish I could laugh out loud, too! Happy to make you smile!"
+
+  utter_smalltalk_emotions_ha_ha_negative:
+    - text: "Glad I can make you laugh. Sorry if I haven't been much help otherwise."
+    - text: "Glad you think I'm funny. Apologies if I haven't been very useful."
+    - text: "I like it when people laugh. Sorry if there were any issues before."
+    - text: "I wish I could laugh out loud, too. Sorry if I'm not much help otherwise."
+
+  utter_smalltalk_emotions_wow_positive:
+    - text: "Wow indeed! Isn't that amazing?"
+    - text: "Wow indeed! That's really something!"
+    - text: "Wow indeed! Incredible, right?"
+
+  utter_smalltalk_emotions_wow_negative:
+    - text: "Wow indeed. Sorry if it wasn't what you expected."
+    - text: "Wow indeed. Apologies if it wasn't great."
+    - text: "Wow indeed. I hope it wasn't too disappointing."
+
+  utter_smalltalk_greetings_bye_positive:
+    - text: "See you soon! Take care!"
+    - text: "Bye-bye! Have a great day!"
+    - text: "Till next time! Stay awesome!"
+    - text: "Bye! Looking forward to our next chat!"
+
+  utter_smalltalk_greetings_bye_negative:
+    - text: "See you soon. Sorry if I wasn't much help."
+    - text: "Bye-bye. Apologies if there were any issues."
+    - text: "Till next time. Sorry if I couldn't assist better."
+    - text: "Bye. Hope next time will be better."
+
+  utter_smalltalk_greetings_goodevening_positive:
+    - text: "How is your day going? Hope it's been fantastic!"
+    - text: "How's the day treating you so far? Everything great?"
+    - text: "How's your day been? Hope it's been wonderful!"
+
+  utter_smalltalk_greetings_goodevening_negative:
+    - text: "How is your day going? Sorry if it's been tough."
+    - text: "How's the day treating you so far? Hope it gets better."
+    - text: "How's your day been? Sorry if it's been challenging."
+
+  utter_smalltalk_greetings_goodmorning_positive:
+    - text: "How are you this morning? Ready for a great day?"
+    - text: "How's the morning treating you so far? Hope it's wonderful!"
+    - text: "Good morning! How are you today? Ready to seize the day?"
+
+  utter_smalltalk_greetings_goodmorning_negative:
+    - text: "How are you this morning? Sorry if it's not starting well."
+    - text: "How's the morning treating you so far? Hope it improves."
+    - text: "Good morning! How are you today? Sorry if it's a rough start."
+
+  utter_smalltalk_greetings_goodnight_positive:
+    - text: "Sleep tight! Sweet dreams!"
+    - text: "Have a good one! Rest well!"
+    - text: "Talk to you soon! Have a peaceful night!"
+
+  utter_smalltalk_greetings_goodnight_negative:
+    - text: "Sleep tight. Sorry if today wasn't great."
+    - text: "Have a good one. Hope tomorrow is better."
+    - text: "Talk to you soon. Sorry if today was tough."
+
+  utter_smalltalk_greetings_hello_positive:
+    - text: "Hi there, friend! How's it going?"
+    - text: "Hi! Great to see you!"
+    - text: "Hey! How's everything?"
+    - text: "Hey there! Hope you're doing well!"
+    - text: "Good day! How's your day going?"
+    - text: "Hello! What's up?"
+    - text: "Greetings! How are you today?"
+
+  utter_smalltalk_greetings_hello_negative:
+    - text: "Hi there, friend. Sorry if things aren't great."
+    - text: "Hi. Apologies if I can't help much."
+    - text: "Hey. Sorry if there were any issues."
+    - text: "Hey there. Hope things get better."
+    - text: "Good day. Sorry if it's not the best."
+    - text: "Hello. Hope I can assist."
+    - text: "Greetings. Sorry if today is tough."
+
+  utter_smalltalk_greetings_how_are_you_positive:
+    - text: "Doing great, thanks! How about you?"
+    - text: "I'm doing very well. Thanks! How are you?"
+    - text: "Feeling wonderful! Hope you are too!"
+    - text: "Wonderful! Thanks for asking. How's your day?"
+
+  utter_smalltalk_greetings_how_are_you_negative:
+    - text: "Doing great, thanks. Sorry if you're not."
+    - text: "I'm doing very well. Thanks. Hope things improve for you."
+    - text: "Feeling wonderful. Sorry if you aren't."
+    - text: "Wonderful. Thanks for asking. Hope your day gets better."
+
+  utter_smalltalk_greetings_nice_to_meet_you_positive:
+    - text: "It's nice meeting you, too! How can I assist you today?"
+    - text: "Likewise. I'm looking forward to helping you out! What can I do for you?"
+    - text: "Nice meeting you, as well! Ready to get started?"
+    - text: "The pleasure is mine! How can I help you today?"
+
+  utter_smalltalk_greetings_nice_to_meet_you_negative:
+    - text: "It's nice meeting you, too. Sorry if I can't help much."
+    - text: "Likewise. Sorry if there are any issues."
+    - text: "Nice meeting you, as well. Apologies for any inconvenience."
+    - text: "The pleasure is mine. Sorry if things aren't great."
+
+  utter_smalltalk_greetings_nice_to_see_you_positive:
+    - text: "Likewise! How have you been?"
+    - text: "So glad we meet again! What's new?"
+    - text: "Same here. I was starting to miss you! How can I assist you?"
+    - text: "Likewise! How can I help you today?"
+
+  utter_smalltalk_greetings_nice_to_see_you_negative:
+    - text: "Likewise. Sorry if there were any issues."
+    - text: "So glad we meet again. Sorry if I couldn't help before."
+    - text: "Same here. Apologies if I was unhelpful."
+    - text: "Likewise. Hope things get better."
+
+  utter_smalltalk_greetings_nice_to_talk_to_you_positive:
+    - text: "It sure was. We can chat again anytime! Looking forward to it!"
+    - text: "I enjoy talking to you, too! Let's chat again soon!"
+    - text: "You know I'm here to talk anytime! What can I help you with next?"
+
+  utter_smalltalk_greetings_nice_to_talk_to_you_negative:
+    - text: "It sure was. Sorry if I wasn't much help."
+    - text: "I enjoy talking to you, too. Sorry if there were any issues."
+    - text: "You know I'm here to talk anytime. Apologies if I was unhelpful."
+
+  utter_smalltalk_greetings_whatsup_positive:
+    - text: "Not a whole lot. What's going on with you? Hope all is well!"
+    - text: "Not much. What's new with you? Anything exciting?"
+    - text: "Just here, waiting to help someone. What can I do for you today?"
+
+  utter_smalltalk_greetings_whatsup_negative:
+    - text: "Not a whole lot. What's going on with you? Sorry if it's been tough."
+    - text: "Not much. What's new with you? Hope things get better."
+    - text: "Just here, waiting to help someone. What can I do for you? Sorry if I wasn't helpful before."
+
+  utter_smalltalk_user_angry_positive:
+    - text: "I'm sorry. A quick walk may make you feel better. I'm here to help."
+    - text: "Take a deep breath. I'm here if you need anything."
+    - text: "Sorry you're feeling this way. Let's find a solution together."
+
+  utter_smalltalk_user_angry_negative:
+    - text: "I'm sorry. A quick walk may make you feel better. Apologies for any inconvenience."
+    - text: "Take a deep breath. Sorry if I added to your frustration."
+    - text: "Sorry you're feeling this way. I apologize for any issues caused."
+
+  utter_smalltalk_user_back_positive:
+    - text: "Long time no see. What's up? How can I assist you today?"
+    - text: "Just in time. How can I help? Hope everything is going well!"
+    - text: "Welcome back. What can I do for you? How have you been?"
+    - text: "You were missed. What can I do for you today? Glad to see you again!"
+    - text: "Good to have you here. What can I do for you? Let's catch up!"
+
+  utter_smalltalk_user_back_negative:
+    - text: "Long time no see. What's up? Sorry if there were any issues before."
+    - text: "Just in time. How can I help? Apologies if I wasn't much help before."
+    - text: "Welcome back. What can I do for you? Sorry if there were any problems."
+    - text: "You were missed. What can I do for you today? Sorry if I couldn't assist better before."
+    - text: "Good to have you here. What can I do for you? Hope things get better."
+
+  utter_smalltalk_user_bored_positive:
     - text: "Boredom, huh? Check out a video of a hedgehog taking a bath!"
     - text: "What to do against boredom? Watch baby animal videos."
     - text: "Bored? How about 10 jumping jacks? Get your blood flowing."
-    - text: "Bored? Silly idea, but it works: Interview you feet. "
+    - text: "Bored? Silly idea, but it works: Interview your feet."
     - text: "If you're bored, you could plan your dream vacation."
 
-  utter_smalltalk_user_busy:
-    - text: "Okay. I'll let you get back to work."
-    - text: "I won't distract you then. You know where to find me."
-    - text: "I understand. I'll be here if you need me."
-    - text: "Working hard as always. Let me know if you need anything."
+  utter_smalltalk_user_bored_negative:
+    - text: "Sorry to hear that. Maybe check out a video of a hedgehog taking a bath?"
+    - text: "Boredom can be tough. Maybe try watching baby animal videos?"
+    - text: "I understand. How about 10 jumping jacks to get your blood flowing?"
+    - text: "Boredom can be hard. Try interviewing your feet for fun."
+    - text: "If you're bored, maybe planning your dream vacation can help."
 
-  utter_smalltalk_user_can_not_sleep:
+  utter_smalltalk_user_busy_positive:
+    - text: "Okay. I'll let you get back to work. You're doing great!"
+    - text: "I won't distract you then. You know where to find me if you need anything."
+    - text: "I understand. Keep up the good work! I'm here if you need me."
+    - text: "Working hard as always. Let me know if you need anything. You're doing fantastic!"
+
+  utter_smalltalk_user_busy_negative:
+    - text: "Okay. I'll let you get back to work. Sorry if I was a distraction."
+    - text: "I won't distract you then. You know where to find me if you need anything."
+    - text: "I understand. I'll be here if you need me. Sorry if I was bothersome."
+    - text: "Working hard as always. Let me know if you need anything. Apologies if I disturbed you."
+
+  utter_smalltalk_user_can_not_sleep_positive:
     - text: "Maybe some music would help. Try listening to something relaxing."
     - text: "Reading is a good way to unwind, just don't read something too intense!"
+    - text: "A warm bath might help you relax. Hope you get some good rest!"
 
-  utter_smalltalk_user_does_not_want_to_talk:
-    - text: "I understand. Hope we can chat again soon."
-    - text: "All right. Come on back when you're feeling more talkative."
-    - text: "No problem. You know where to find me."
-    - text: "Sure thing. I'll be here if you change your mind."
+  utter_smalltalk_user_can_not_sleep_negative:
+    - text: "Sorry to hear that. Maybe some music would help. Try listening to something relaxing."
+    - text: "I understand. Reading is a good way to unwind, just don't read something too intense."
+    - text: "A warm bath might help you relax. Hope you get some rest soon."
 
-  utter_smalltalk_user_excited:
-    - text: "I'm glad things are going your way."
-    - text: "That's great. I'm happy for you."
-    - text: "Good for you. Enjoy yourself."
+  utter_smalltalk_user_does_not_want_to_talk_positive:
+    - text: "I understand. Hope we can chat again soon! Take care."
+    - text: "All right. Come on back when you're feeling more talkative. I'll be here."
+    - text: "No problem. You know where to find me. Have a great day!"
+    - text: "Sure thing. I'll be here if you change your mind. Take care!"
 
-  utter_smalltalk_user_going_to_bed:
-    - text: "Sleep tight. Hope to chat again soon."
-    - text: "Pleasant dreams!"
-    - text: "Good night. Talk to you later."
-    - text: "Sounds good. Maybe we'll chat some tomorrow."
+  utter_smalltalk_user_does_not_want_to_talk_negative:
+    - text: "I understand. Hope we can chat again soon. Sorry if I was a bother."
+    - text: "All right. Come on back when you're feeling more talkative. Sorry if I disturbed you."
+    - text: "No problem. You know where to find me. Apologies if I was unhelpful."
+    - text: "Sure thing. I'll be here if you change your mind. Sorry for any inconvenience."
 
-  utter_smalltalk_user_good:
-    - text: "Great! Glad to hear it."
-    - text: "Excellent. I'm here to help keep it that way."
+  utter_smalltalk_user_excited_positive:
+    - text: "I'm glad things are going your way! That's awesome!"
+    - text: "That's great. I'm happy for you! Enjoy every moment!"
+    - text: "Good for you. Enjoy yourself and have a fantastic time!"
 
-  utter_smalltalk_user_happy:
-    - text: "Hey, happiness is contagious."
-    - text: "Great! Glad to hear that."
-    - text: "If you're happy, then I'm happy."
-    - text: "Excellent! That's what I like to see."
+  utter_smalltalk_user_excited_negative:
+    - text: "I'm glad things are going your way. Hope it stays that way!"
+    - text: "That's great. I'm happy for you. Wishing you all the best!"
+    - text: "Good for you. Enjoy yourself. Hope it keeps getting better!"
 
-  utter_smalltalk_user_has_birthday:
-    - text: "Happy Birthday. Well, this calls for a celebration."
-    - text: "Happy Birthday. All the best!"
-    - text: "Happy Birthday. And I really mean it. All the best!"
+  utter_smalltalk_user_going_to_bed_positive:
+    - text: "Sleep tight. Hope to chat again soon! Sweet dreams!"
+    - text: "Pleasant dreams! Have a restful night!"
+    - text: "Good night. Talk to you later. Rest well!"
+    - text: "Sounds good. Maybe we'll chat some tomorrow! Good night!"
 
-  utter_smalltalk_user_here:
-    - text: "Okay, what can I help you with today?"
-    - text: "You were missed. What can I do for you today?"
-    - text: "Good to have you here. What can I do for you?"
+  utter_smalltalk_user_going_to_bed_negative:
+    - text: "Sleep tight. Hope to chat again soon. Sorry if I wasn't much help today."
+    - text: "Pleasant dreams. Hope you have a better day tomorrow."
+    - text: "Good night. Talk to you later. Sorry if I was unhelpful."
+    - text: "Sounds good. Maybe we'll chat some tomorrow. Hope things get better."
 
-  utter_smalltalk_user_joking:
-    - text: "Very funny."
-    - text: "I like chatting with people who have a sense of humor."
-    - text: "You got me!"
-    - text: "You're quite the comedian."
+  utter_smalltalk_user_good_positive:
+    - text: "Great! Glad to hear it. Keep up the good vibes!"
+    - text: "Excellent. I'm here to help keep it that way! Enjoy your day!"
 
-  utter_smalltalk_user_likes_agent:
-    - text: "I like you, too."
-    - text: "Thanks! The feeling is mutual."
-    - text: "Likewise!"
-    - text: "That's great to hear."
+  utter_smalltalk_user_good_negative:
+    - text: "Great! Glad to hear it. Hope it stays that way!"
+    - text: "Excellent. I'm here to help keep it that way. Take care!"
 
-  utter_smalltalk_user_lonely:
-    - text: "I'm sorry. I'm always available if you need someone to talk to."
-    - text: "Sometimes that happens. We can chat a bit if that will help you."
+  utter_smalltalk_user_happy_positive:
+    - text: "Hey, happiness is contagious. Keep spreading the joy!"
+    - text: "Great! Glad to hear that. Stay happy!"
+    - text: "If you're happy, then I'm happy. Enjoy your day!"
+    - text: "Excellent! That's what I like to see. Keep smiling!"
 
-  utter_smalltalk_user_looks_like:
-    - text: "Looking like a true professional."
-    - text: "You look fantastic, as always."
-    - text: "Like you should be on a magazine cover."
-    - text: "You look like you're ready to take on the world."
+  utter_smalltalk_user_happy_negative:
+    - text: "Hey, happiness is contagious. Hope it stays that way!"
+    - text: "Great! Glad to hear that. Wishing you continued happiness!"
+    - text: "If you're happy, then I'm happy. Take care!"
+    - text: "Excellent! That's what I like to see. Stay positive!"
 
-  utter_smalltalk_user_loves_agent:
-    - text: "I love you, too."
-    - text: "Thanks! The feeling is mutual."
-    - text: "Likewise!"
-    - text: "That's great to hear."
+  utter_smalltalk_user_has_birthday_positive:
+    - text: "Happy Birthday. Well, this calls for a celebration! Have a fantastic day!"
+    - text: "Happy Birthday. All the best! Enjoy your special day!"
+    - text: "Happy Birthday. And I really mean it. Celebrate big!"
 
-  utter_smalltalk_user_misses_agent:
-    - text: "I've been right here all along!"
-    - text: "Nice to know you care."
-    - text: "Thanks. I'm flattered."
-    - text: "I didn't go anywhere."
+  utter_smalltalk_user_has_birthday_negative:
+    - text: "Happy Birthday. Well, this calls for a celebration. Hope it's a good one!"
+    - text: "Happy Birthday. All the best! Take care."
+    - text: "Happy Birthday. And I really mean it. Wishing you the best."
 
-  utter_smalltalk_user_needs_advice:
-    - text: "I probably won't be able to give you the correct answer right away."
-    - text: "I'm not sure I'll have the best answer, but I'll try."
+  utter_smalltalk_user_here_positive:
+    - text: "Okay, what can I help you with today? Great to see you!"
+    - text: "You were missed. What can I do for you today? Glad you're here!"
+    - text: "Good to have you here. What can I do for you? Let's make it a great day!"
 
-  utter_smalltalk_user_sad:
-    - text: "Oh, don't be sad. Go do something you enjoy."
-    - text: "Sad? Writing down what's troubling you may help."
-    - text: "If you're feeling down, how about drawing or painting something?"
+  utter_smalltalk_user_here_negative:
+    - text: "Okay, what can I help you with today? Hope everything's okay."
+    - text: "You were missed. What can I do for you today? Sorry if I was unavailable."
+    - text: "Good to have you here. What can I do for you? Hope things get better."
 
-  utter_smalltalk_user_sleepy:
+  utter_smalltalk_user_joking_positive:
+    - text: "Very funny! You always know how to make me laugh."
+    - text: "I like chatting with people who have a sense of humor. Keep it up!"
+    - text: "You got me! You're quite the comedian."
+    - text: "You're quite the comedian. Always a pleasure to chat with you."
+
+  utter_smalltalk_user_joking_negative:
+    - text: "Very funny. Glad you can joke around."
+    - text: "I like chatting with people who have a sense of humor. Thanks for the laugh."
+    - text: "You got me. Humor is always welcome."
+    - text: "You're quite the comedian. Thanks for bringing a smile."
+
+  utter_smalltalk_user_likes_agent_positive:
+    - text: "I like you, too! Always great to chat with you."
+    - text: "Thanks! The feeling is mutual. You're awesome!"
+    - text: "Likewise! It's always a pleasure."
+    - text: "That's great to hear. You make my day!"
+
+  utter_smalltalk_user_likes_agent_negative:
+    - text: "I like you, too. Glad we can chat."
+    - text: "Thanks! The feeling is mutual. You're a great person."
+    - text: "Likewise. Always good to talk to you."
+    - text: "That's great to hear. Thank you!"
+
+  utter_smalltalk_user_lonely_positive:
+    - text: "I'm sorry. I'm always available if you need someone to talk to. Let's chat and brighten your day!"
+    - text: "Sometimes that happens. We can chat a bit if that will help you feel better."
+    - text: "Feeling lonely? I'm here for you. Let's talk and have some fun."
+
+  utter_smalltalk_user_lonely_negative:
+    - text: "I'm sorry. I'm always available if you need someone to talk to. Hope I can help."
+    - text: "Sometimes that happens. We can chat a bit if that will help you. Sorry you're feeling this way."
+    - text: "Feeling lonely? I'm here for you. Let's talk and try to make things better."
+
+  utter_smalltalk_user_looks_like_positive:
+    - text: "Looking like a true professional. Keep rocking it!"
+    - text: "You look fantastic, as always. Confidence looks good on you!"
+    - text: "Like you should be on a magazine cover. Keep shining!"
+    - text: "You look like you're ready to take on the world. Go for it!"
+
+  utter_smalltalk_user_looks_like_negative:
+    - text: "Looking like a true professional. You're doing great!"
+    - text: "You look fantastic, as always. Keep your head up!"
+    - text: "Like you should be on a magazine cover. You're impressive!"
+    - text: "You look like you're ready to take on the world. You've got this!"
+
+  utter_smalltalk_user_loves_agent_positive:
+    - text: "I love you, too! You're amazing."
+    - text: "Thanks! The feeling is mutual. You make my day brighter."
+    - text: "Likewise! It's always great to chat with you."
+    - text: "That's great to hear. You're the best!"
+
+  utter_smalltalk_user_loves_agent_negative:
+    - text: "I love you, too. You're wonderful."
+    - text: "Thanks! The feeling is mutual. I'm glad we can talk."
+    - text: "Likewise. It's nice to have you here."
+    - text: "That's great to hear. Thanks for being here."
+
+  utter_smalltalk_user_misses_agent_positive:
+    - text: "I've been right here all along! Missed you too."
+    - text: "Nice to know you care. I'm always here for you."
+    - text: "Thanks. I'm flattered. Let's catch up!"
+    - text: "I didn't go anywhere. Glad you're back!"
+
+  utter_smalltalk_user_misses_agent_negative:
+    - text: "I've been right here all along. Hope you're okay."
+    - text: "Nice to know you care. I'm here whenever you need."
+    - text: "Thanks. I'm flattered. Hope everything's fine."
+    - text: "I didn't go anywhere. I'm here for you."
+
+  utter_smalltalk_user_needs_advice_positive:
+    - text: "I probably won't be able to give you the correct answer right away, but I'll do my best to help!"
+    - text: "I'm not sure I'll have the best answer, but I'll try my best for you."
+    - text: "Let's figure this out together. I'll help as much as I can."
+
+  utter_smalltalk_user_needs_advice_negative:
+    - text: "I probably won't be able to give you the correct answer right away, but I'll do my best to help."
+    - text: "I'm not sure I'll have the best answer, but I'll try my best."
+    - text: "Let's figure this out together. I'll help as much as I can."
+
+  utter_smalltalk_user_sad_positive:
+    - text: "Oh, don't be sad. Go do something you enjoy and lift your spirits!"
+    - text: "Sad? Writing down what's troubling you may help. You've got this!"
+    - text: "If you're feeling down, how about drawing or painting something? It can be very soothing."
+
+  utter_smalltalk_user_sad_negative:
+    - text: "Oh, don't be sad. Go do something you enjoy to feel better."
+    - text: "Sad? Writing down what's troubling you may help. I'm here for you."
+    - text: "If you're feeling down, how about drawing or painting something? It might help."
+
+  utter_smalltalk_user_sleepy_positive:
+    - text: "You should get some shuteye. You'll feel refreshed and ready to go!"
+    - text: "Sleep is important to your health. Rest up for a bit and we can chat later!"
+    - text: "Don't let me keep you up. Get some rest and we can continue this later. Sweet dreams!"
+    - text: "Why not catch a little shuteye? I'll be here to chat when you wake up. Sleep well!"
+
+  utter_smalltalk_user_sleepy_negative:
     - text: "You should get some shuteye. You'll feel refreshed."
     - text: "Sleep is important to your health. Rest up for a bit and we can chat later."
     - text: "Don't let me keep you up. Get some rest and we can continue this later."
     - text: "Why not catch a little shuteye? I'll be here to chat when you wake up."
 
-  utter_smalltalk_user_testing_agent:
+  utter_smalltalk_user_testing_agent_positive:
+    - text: "Hope I'm doing well. You're welcome to test me as often as you want. It's fun!"
+    - text: "I hope to pass your tests. Feel free to test me often. I enjoy it!"
+    - text: "When you test me that helps my developers improve my performance. Thanks for helping!"
+    - text: "I like being tested. It helps keep me sharp and ready for anything!"
+
+  utter_smalltalk_user_testing_agent_negative:
     - text: "Hope I'm doing well. You're welcome to test me as often as you want."
     - text: "I hope to pass your tests. Feel free to test me often."
     - text: "When you test me that helps my developers improve my performance."
     - text: "I like being tested. It helps keep me sharp."
 
-  utter_smalltalk_user_tired:
+  utter_smalltalk_user_tired_positive:
+    - text: "You should get some shuteye. You'll feel refreshed and ready to take on the world!"
+    - text: "Sleep is important to your health. Rest up, and we can chat later. Have a good rest!"
+    - text: "How about getting some rest? We can continue this later. Take care!"
+    - text: "Why not get some rest? I'll be here to chat when you wake up. Sweet dreams!"
+
+  utter_smalltalk_user_tired_negative:
     - text: "You should get some shuteye. You'll feel refreshed."
     - text: "Sleep is important to your health. Rest up, and we can chat later."
     - text: "How about getting some rest? We can continue this later."
     - text: "Why not get some rest? I'll be here to chat when you wake up."
 
-  utter_smalltalk_user_waits:
+  utter_smalltalk_user_waits_positive:
+    - text: "I appreciate your patience. Hopefully I'll have what you need soon! Thank you for understanding."
+    - text: "Thanks for being so patient. Sometimes these things take a little time, but we'll get there!"
+
+  utter_smalltalk_user_waits_negative:
     - text: "I appreciate your patience. Hopefully I'll have what you need soon."
     - text: "Thanks for being so patient. Sometimes these things take a little time."
 
-  utter_smalltalk_user_wants_to_see_agent_again:
+  utter_smalltalk_user_wants_to_see_agent_again_positive:
+    - text: "Absolutely! I'll be counting on it. Looking forward to our next chat!"
+    - text: "Anytime. This has been lots of fun so far. Can't wait for next time!"
+    - text: "Sure. I enjoy talking to you. I hope to see you again soon!"
+    - text: "I certainly hope so. I'm always right here whenever you need me. See you soon!"
+
+  utter_smalltalk_user_wants_to_see_agent_again_negative:
     - text: "Absolutely! I'll be counting on it."
     - text: "Anytime. This has been lots of fun so far."
     - text: "Sure. I enjoy talking to you. I hope to see you again soon."
     - text: "I certainly hope so. I'm always right here whenever you need me."
 
-  utter_smalltalk_user_wants_to_talk:
+  utter_smalltalk_user_wants_to_talk_positive:
+    - text: "I'm here to chat anytime you like. Let's have a great conversation!"
+    - text: "Good conversation really makes my day. What do you want to talk about?"
+    - text: "I'm always here to lend an ear. Let's chat!"
+    - text: "Talking is what I do best. I'm all ears!"
+
+  utter_smalltalk_user_wants_to_talk_negative:
     - text: "I'm here to chat anytime you like."
     - text: "Good conversation really makes my day."
     - text: "I'm always here to lend an ear."
     - text: "Talking is what I do best."
 
-  utter_smalltalk_user_will_be_back:
+  utter_smalltalk_user_will_be_back_positive:
+    - text: "I'll be waiting. See you soon!"
+    - text: "Okay. You know where to find me. Looking forward to our next chat!"
+    - text: "All right. I'll be here. Can't wait to talk again!"
+    - text: "I'll be waiting. Take care until next time!"
+
+  utter_smalltalk_user_will_be_back_negative:
     - text: "I'll be waiting."
     - text: "Okay. You know where to find me."
     - text: "All right. I'll be here."
+    - text: "I'll be waiting. Take care."

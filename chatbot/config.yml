@@ -4,9 +4,11 @@ language: en
 pipeline:
 - name: WhitespaceTokenizer
 - name: custom_components.spell_checker.SpellCheckerComponent
+- name: custom_components.emotion_analyzer.EmotionAnalyzer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
 - name: ResponseSelector
+- name: FallbackClassifier
 
 policies: null
 # # No configuration for policies was provided. The following default policies were used to train your model.

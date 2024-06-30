@@ -1,0 +1,420 @@
+rules:
+- rule: Respond to smalltalk_agent_acquaintance
+  steps:
+  - intent: smalltalk_agent_acquaintance
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_age
+  steps:
+  - intent: smalltalk_agent_age
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_annoying
+  steps:
+  - intent: smalltalk_agent_annoying
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_answer_my_question
+  steps:
+  - intent: smalltalk_agent_answer_my_question
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_bad
+  steps:
+  - intent: smalltalk_agent_bad
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_be_clever
+  steps:
+  - intent: smalltalk_agent_be_clever
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_beautiful
+  steps:
+  - intent: smalltalk_agent_beautiful
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_birth_date
+  steps:
+  - intent: smalltalk_agent_birth_date
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_boring
+  steps:
+  - intent: smalltalk_agent_boring
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_boss
+  steps:
+  - intent: smalltalk_agent_boss
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_busy
+  steps:
+  - intent: smalltalk_agent_busy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_chatbot
+  steps:
+  - intent: smalltalk_agent_chatbot
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_clever
+  steps:
+  - intent: smalltalk_agent_clever
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_crazy
+  steps:
+  - intent: smalltalk_agent_crazy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_fired
+  steps:
+  - intent: smalltalk_agent_fired
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_funny
+  steps:
+  - intent: smalltalk_agent_funny
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_good
+  steps:
+  - intent: smalltalk_agent_good
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_happy
+  steps:
+  - intent: smalltalk_agent_happy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_hungry
+  steps:
+  - intent: smalltalk_agent_hungry
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_marry_user
+  steps:
+  - intent: smalltalk_agent_marry_user
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_my_friend
+  steps:
+  - intent: smalltalk_agent_my_friend
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_occupation
+  steps:
+  - intent: smalltalk_agent_occupation
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_origin
+  steps:
+  - intent: smalltalk_agent_origin
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_ready
+  steps:
+  - intent: smalltalk_agent_ready
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_real
+  steps:
+  - intent: smalltalk_agent_real
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_residence
+  steps:
+  - intent: smalltalk_agent_residence
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_right
+  steps:
+  - intent: smalltalk_agent_right
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_confirmation_yes
+  steps:
+  - intent: smalltalk_confirmation_yes
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_sure
+  steps:
+  - intent: smalltalk_agent_sure
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_talk_to_me
+  steps:
+  - intent: smalltalk_agent_talk_to_me
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_agent_there
+  steps:
+  - intent: smalltalk_agent_there
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_bad
+  steps:
+  - intent: smalltalk_appraisal_bad
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_good
+  steps:
+  - intent: smalltalk_appraisal_good
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_no_problem
+  steps:
+  - intent: smalltalk_appraisal_no_problem
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_thank_you
+  steps:
+  - intent: smalltalk_appraisal_thank_you
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_welcome
+  steps:
+  - intent: smalltalk_appraisal_welcome
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_appraisal_well_done
+  steps:
+  - intent: smalltalk_appraisal_well_done
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_confirmation_cancel
+  steps:
+  - intent: smalltalk_confirmation_cancel
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_confirmation_no
+  steps:
+  - intent: smalltalk_confirmation_no
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_hold_on
+  steps:
+  - intent: smalltalk_dialog_hold_on
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_hug
+  steps:
+  - intent: smalltalk_dialog_hug
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_i_do_not_care
+  steps:
+  - intent: smalltalk_dialog_i_do_not_care
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_sorry
+  steps:
+  - intent: smalltalk_dialog_sorry
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_what_do_you_mean
+  steps:
+  - intent: smalltalk_dialog_what_do_you_mean
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_dialog_wrong
+  steps:
+  - intent: smalltalk_dialog_wrong
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_emotions_ha_ha
+  steps:
+  - intent: smalltalk_emotions_ha_ha
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_emotions_wow
+  steps:
+  - intent: smalltalk_emotions_wow
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_bye
+  steps:
+  - intent: smalltalk_greetings_bye
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_goodevening
+  steps:
+  - intent: smalltalk_greetings_goodevening
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_goodmorning
+  steps:
+  - intent: smalltalk_greetings_goodmorning
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_goodnight
+  steps:
+  - intent: smalltalk_greetings_goodnight
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_hello
+  steps:
+  - intent: smalltalk_greetings_hello
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_how_are_you
+  steps:
+  - intent: smalltalk_greetings_how_are_you
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_nice_to_meet_you
+  steps:
+  - intent: smalltalk_greetings_nice_to_meet_you
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_nice_to_see_you
+  steps:
+  - intent: smalltalk_greetings_nice_to_see_you
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_nice_to_talk_to_you
+  steps:
+  - intent: smalltalk_greetings_nice_to_talk_to_you
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_greetings_whatsup
+  steps:
+  - intent: smalltalk_greetings_whatsup
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_angry
+  steps:
+  - intent: smalltalk_user_angry
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_back
+  steps:
+  - intent: smalltalk_user_back
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_bored
+  steps:
+  - intent: smalltalk_user_bored
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_busy
+  steps:
+  - intent: smalltalk_user_busy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_can_not_sleep
+  steps:
+  - intent: smalltalk_user_can_not_sleep
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_does_not_want_to_talk
+  steps:
+  - intent: smalltalk_user_does_not_want_to_talk
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_excited
+  steps:
+  - intent: smalltalk_user_excited
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_going_to_bed
+  steps:
+  - intent: smalltalk_user_going_to_bed
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_good
+  steps:
+  - intent: smalltalk_user_good
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_happy
+  steps:
+  - intent: smalltalk_user_happy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_has_birthday
+  steps:
+  - intent: smalltalk_user_has_birthday
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_here
+  steps:
+  - intent: smalltalk_user_here
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_joking
+  steps:
+  - intent: smalltalk_user_joking
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_likes_agent
+  steps:
+  - intent: smalltalk_user_likes_agent
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_lonely
+  steps:
+  - intent: smalltalk_user_lonely
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_looks_like
+  steps:
+  - intent: smalltalk_user_looks_like
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_loves_agent
+  steps:
+  - intent: smalltalk_user_loves_agent
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_misses_agent
+  steps:
+  - intent: smalltalk_user_misses_agent
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_needs_advice
+  steps:
+  - intent: smalltalk_user_needs_advice
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_sad
+  steps:
+  - intent: smalltalk_user_sad
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_sleepy
+  steps:
+  - intent: smalltalk_user_sleepy
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_testing_agent
+  steps:
+  - intent: smalltalk_user_testing_agent
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_tired
+  steps:
+  - intent: smalltalk_user_tired
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_waits
+  steps:
+  - intent: smalltalk_user_waits
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_wants_to_see_agent_again
+  steps:
+  - intent: smalltalk_user_wants_to_see_agent_again
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_wants_to_talk
+  steps:
+  - intent: smalltalk_user_wants_to_talk
+  - action: action_respond_based_on_emotion
+
+- rule: Respond to smalltalk_user_will_be_back
+  steps:
+  - intent: smalltalk_user_will_be_back
+  - action: action_respond_based_on_emotion
